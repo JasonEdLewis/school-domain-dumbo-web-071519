@@ -25,7 +25,7 @@ class School
   def sort
     
     roster.each do |thing|
-      puts thing[:9].sort
+      puts thing
     end
     
   end
