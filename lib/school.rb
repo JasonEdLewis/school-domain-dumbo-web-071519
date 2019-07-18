@@ -25,7 +25,7 @@ class School
   def sort
     
     roster.each do |thing|
-      puts thing
+      thing.sort_by {|key,value| value}
     end
     
   end
