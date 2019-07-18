@@ -22,10 +22,10 @@ class School
   end
   
   
-  # def sort
+  def sort
     
-  #   roster[grade].sort_by {|key, value| key}
-  # end
+    roster[grade].sort_by {|key, value| key}
+  end
   
   
   attr_reader :roster, :school_name
