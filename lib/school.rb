@@ -21,11 +21,11 @@ class School
     roster[num].map {|grade| grade}
   end
   
-  binding.pry
-  def sort
+  
+  # def sort
     
-    roster[grade].sort_by {|key, value| key}
-  end
+  #   roster[grade].sort_by {|key, value| key}
+  # end
   
   
   attr_reader :roster, :school_name
