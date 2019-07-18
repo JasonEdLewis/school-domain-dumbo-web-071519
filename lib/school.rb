@@ -25,7 +25,7 @@ class School
   def sort
     
     roster.each do |thing|
-      p thing
+      p thing[9]
     end
     
   end
@@ -33,3 +33,7 @@ class School
   
   attr_reader :roster, :school_name
 end
+
+
+
+# {9=>["Homer Simpson", "Bart Simpson"], 10=>["Avi Flombaum", "Jeff Baird"], 7=>["Blake Johnson", "Jack Bauer"]}
