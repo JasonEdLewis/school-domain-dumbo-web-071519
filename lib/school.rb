@@ -24,8 +24,8 @@ class School
   
   def sort
     
-    sorted_by_keys =roster.each {|value| value.sort}
-    sorted_by_keys
+    roster.each {|value| value.sort}
+    
   end
   
   
