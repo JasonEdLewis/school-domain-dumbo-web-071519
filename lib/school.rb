@@ -24,7 +24,7 @@ class School
   
   def sort
     
-    roster.each_value {|value| value.sort}
+    roster.sort_by(&:reverse)
     
   end
   
