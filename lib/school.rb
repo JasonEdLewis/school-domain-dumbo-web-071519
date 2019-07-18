@@ -24,7 +24,7 @@ class School
   
   def sort
     
-    roster.sort_by(&:reverse)
+    roster.sort_by(&:reverse).to_h
     
   end
   
