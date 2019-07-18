@@ -24,7 +24,7 @@ class School
   
   def sort
     
-    roster.each {|value| value.sort}
+    roster.each_value {|value| value.sort}
     
   end
   
