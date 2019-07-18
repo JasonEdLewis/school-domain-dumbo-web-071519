@@ -25,7 +25,7 @@ class School
   def sort
     
     roster.each do |thing|
-      p thing[9]
+      p thing[9].sort
     end
     
   end
