@@ -24,7 +24,8 @@ class School
   
   def sort
     hash_of_sorts ={}
-    roster.each do |thing|
+    roster.each do |key, value|
+      hash_of_sorts[key]= value.sort
       
     end
     
