@@ -24,7 +24,7 @@ class School
   
   def sort
     
-    roster[grade].sort_by {|key, value| key}
+    roster.sort_by {|key, value| key}
   end
   
   
