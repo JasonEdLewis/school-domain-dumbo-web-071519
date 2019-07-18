@@ -23,7 +23,7 @@ class School
   
   
   def sort
-    
+    hash_of_sorts ={}
     roster.each do |thing|
       
     end
