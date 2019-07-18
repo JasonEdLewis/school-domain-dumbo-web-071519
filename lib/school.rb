@@ -24,7 +24,7 @@ class School
   
   def sort
     
-    puts School.school_name.roster
+    puts school_name.roster
     
   end
   
