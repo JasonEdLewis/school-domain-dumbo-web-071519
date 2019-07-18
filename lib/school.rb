@@ -24,7 +24,7 @@ class School
   
   def sort
     
-    roster.sort_by {|key, value| value.sort }.to_h
+    roster.sort_by {|key| key}.to_h
   end
   
   
