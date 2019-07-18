@@ -28,7 +28,7 @@ class School
       hash_of_sorts[key]= value.sort
       
     end
-    
+    return hash_of_sorts
   end
   
   
