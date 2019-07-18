@@ -24,7 +24,9 @@ class School
   
   def sort
     
-    puts school_name.roster
+    roster.each do |thing|
+      p thing
+    end
     
   end
   
