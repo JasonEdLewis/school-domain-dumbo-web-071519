@@ -24,7 +24,7 @@ class School
   
   def sort
     
-    sorted_by_keys =roster.sort_by {|value| value}.to_h
+    sorted_by_keys =roster.each {|value| value.sort}.to_h
     sorted_by_keys
   end
   
